@@ -289,8 +289,10 @@ body::before {
         top: 5vh;
     }
     .main {
-        width: 100%;
+        width: 360px;
     }
+  .container {
+width: 360px;
  }
 
 @media (max-width: 992px) and (min-width: 769px) {
