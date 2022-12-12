@@ -295,9 +295,9 @@ body::before {
 width: 360px;
  }
   .wind, .humidity, .pressure, .sun {
-    width: 160px;
+    width: 170px;
   }
-@media (max-width: 992px) and (min-width: 769px) {
+@media (max-width: 992px){
     body::before {
         font-size: 60px;
     }
