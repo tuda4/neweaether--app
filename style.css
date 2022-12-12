@@ -294,9 +294,11 @@ body::before {
   .container {
 width: 360px;
  }
-
+  .wind, .humidity, .pressure, .sun {
+    width: 160px;
+  }
 @media (max-width: 992px) and (min-width: 769px) {
     body::before {
-        font-size: 70px;
+        font-size: 60px;
     }
 }
