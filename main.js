@@ -65,6 +65,7 @@ input.addEventListener('change', function (e) {
     })
     .catch(() => {
       weatherStatus.innerHTML = 'Vui lòng nhập tên thành phố không dấu';
+      weatherTemperature.innerHTML = defaultValue;
       city.innerHTML = defaultValue;
       country.innerHTML = defaultValue;
       windSpeed.innerHTML = defaultValue;
