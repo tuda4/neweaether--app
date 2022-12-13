@@ -65,5 +65,13 @@ input.addEventListener('change', function (e) {
     })
     .catch(() => {
       weatherStatus.innerHTML = 'Địa điểm của bạn không có';
+      city.innerHTML = defaultValue;
+      country.innerHTML = defaultValue;
+      windSpeed.innerHTML = defaultValue;
+      humidity.innerHTML = defaultValue;
+      pressure.innerHTML = defaultValue;
+      sunriseTime.innerHTML = defaultValue;
+      sunsetTime.innerHTML = defaultValue;
+      timer.innerHTML = defaultValue;
     });
 });
